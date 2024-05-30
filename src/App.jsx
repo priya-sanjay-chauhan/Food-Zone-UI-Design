@@ -58,7 +58,7 @@ function App() {
                 <Button onClick={()=>filterFood("dinner")}>Dinner</Button>
             </div>
         </nav>
-      <div className="bg-[url('/images/bg.png')] bg-no-repeat bg-cover h-[27rem] lg:h-[calc(100vh-10rem)]  " >
+      <div className="bg-[url('/images/bg.png')] bg-no-repeat bg-cover h-[40rem] lg:h-[calc(100vh-10rem)]  " >
 
         
         <SearchResult data={filteredData}/>
