@@ -40,7 +40,7 @@ function App() {
     <div >
      
       <nav className='h-40 flex flex-col justify-center bg-neutral-800 '>
-            <div className='py-2 flex justify-between px-28'>
+            <div className='py-2 flex flex-col justify-between px-28'>
                 <div>
                     <img src="./images/logo.svg" alt="logo" />
                 </div>
