@@ -16,7 +16,7 @@ const SearchResult = ({data}) => {
               <div className='w-[8rem] h-[6rem] md:w-[11rem]'>
                 <h2>{name}</h2>
                 <h2 className='text-[0.6rem] md:text-xs font-light md:font-normal '>{text}</h2>
-                <p>{type}</p>
+                {/* <p>{type}</p> */}
               </div>
               <div className='flex justify-end items-end '>
                 <Button>${price}.00</Button>
